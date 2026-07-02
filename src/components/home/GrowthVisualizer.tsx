@@ -138,10 +138,10 @@ export const GrowthVisualizer: React.FC = () => {
       <div className="bg-accent/5 border border-accent/20 rounded-[4px] p-6 mb-8 flex flex-col md:flex-row items-center justify-between gap-6">
         <div>
           <Badge variant="accent" className="mb-2 text-[9px] uppercase tracking-wider">
-            Upbolt Impact Delta
+            Unbolt Impact Delta
           </Badge>
           <h4 className="text-base md:text-lg font-display font-bold text-text-primary">
-            Upbolt yields <span className="text-accent">{reachMultiplier}x</span> higher reach than DIY efforts.
+            Unbolt yields <span className="text-accent">{reachMultiplier}x</span> higher reach than DIY efforts.
           </h4>
           <p className="text-xs text-text-muted mt-1">
             Calculated based on {selectedVertical.name} with {frequency.toLowerCase()} publishing.
@@ -269,13 +269,13 @@ export const GrowthVisualizer: React.FC = () => {
               </div>
             </div>
 
-            {/* Upbolt System */}
+            {/* Unbolt System */}
             <div className="bg-base-light border border-accent/30 shadow-[0_0_15px_rgba(255,79,0,0.05)] rounded-[4px] p-5 relative overflow-hidden">
               <div className="absolute top-0 right-0 bg-accent text-[8px] uppercase tracking-widest text-text-primary font-bold px-2 py-0.5 rounded-bl-[4px]">
                 Recommended
               </div>
               <span className="text-[9px] uppercase tracking-wider text-accent font-bold block mb-3">
-                Path B: Upbolt System
+                Path B: Unbolt System
               </span>
               <div className="space-y-3">
                 <div>
@@ -359,7 +359,7 @@ export const GrowthVisualizer: React.FC = () => {
                       fill="url(#colorDiy)"
                     />
                     <Area
-                      name="Upbolt Managed System"
+                      name="Unbolt Managed System"
                       type="monotone"
                       dataKey="Upbolt"
                       stroke="#FF4F00"

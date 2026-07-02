@@ -39,7 +39,7 @@ export const caseStudies: CaseStudy[] = [
       "Follower base increased by 280% with zero paid ad spend."
     ],
     quote: {
-      text: "Upbolt transformed our Instagram from a digital brochure into our absolute primary source of new patients. The return on investment was clear in the first month.",
+      text: "Unbolt transformed our Instagram from a digital brochure into our absolute primary source of new patients. The return on investment was clear in the first month.",
       author: "Dr. Evelyn Ross",
       role: "Founder & Chief Surgeon"
     }

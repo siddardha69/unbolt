@@ -34,16 +34,16 @@ const generalSans = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: "Upbolt Studios | Premium Short-Form Video Systems",
-    template: "%s | Upbolt Studios"
+    default: "Unbolt | Premium Short-Form Video Systems",
+    template: "%s | Unbolt"
   },
   description: "Boutique content agency. We plan, shoot, edit, and post short-form video systems for clinics, dining, real estate, and fitness brands.",
-  metadataBase: new URL("https://upboltstudios.com"),
+  metadataBase: new URL("https://unbolt.agency"),
   openGraph: {
-    title: "Upbolt Studios | Premium Short-Form Video Systems",
+    title: "Unbolt | Premium Short-Form Video Systems",
     description: "Boutique content agency. We plan, shoot, edit, and post short-form video systems for clinics, dining, real estate, and fitness.",
-    url: "https://upboltstudios.com",
-    siteName: "Upbolt Studios",
+    url: "https://unbolt.agency",
+    siteName: "Unbolt",
     locale: "en_US",
     type: "website"
   }

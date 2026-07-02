@@ -8,8 +8,8 @@ import { Icon } from "@/components/shared/Icon";
 import { caseStudies } from "@/lib/data/caseStudies";
 
 export const metadata = {
-  title: "Case Studies | Upbolt Studios",
-  description: "Read in-depth case studies detailing how we grew organic reach and drove inquiries for aesthetic clinics, fine dining, and boutique studios."
+  title: "Case Studies | Unbolt",
+  description: "Read real client growth stories from our aesthetic clinic, fine dining, and boutique fitness short-form video systems."
 };
 
 export default function WorkPage() {

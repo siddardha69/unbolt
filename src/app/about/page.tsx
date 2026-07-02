@@ -5,8 +5,8 @@ import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 
 export const metadata = {
-  title: "About Us | Upbolt Studios",
-  description: "Why we started Upbolt Studios: a small, hyper-specialized team of content planners, shooters, and editors dedicated to local business growth."
+  title: "About Us | Unbolt",
+  description: "Why we started Unbolt: a small, hyper-specialized team of content planners, shooters, and editors dedicated to local business growth."
 };
 
 export default function AboutPage() {
@@ -17,13 +17,13 @@ export default function AboutPage() {
       <AnimatedSection className="max-w-4xl mx-auto mb-20">
         <SectionHeading
           badge="Our Story"
-          title="We started Upbolt because traditional marketing packages are broken."
+          title="We started Unbolt because traditional marketing packages are broken."
           subtitle="A boutique team of creators who believe local businesses deserve cinema-grade content systems, not basic templates."
         />
         
         <div className="space-y-6 text-sm text-text-muted leading-relaxed font-normal">
           <p>
-            Upbolt Studios was founded by a filmmaker and a local brand strategist who noticed a recurring issue: business owners were spending thousands of dollars monthly on agency fees, only to receive generic stock graphics, poorly resized images, and robotic captions. Traditional agencies treat short-form video like an afterthought, relying on automated AI voiceovers or mobile templates that look identical to every competitor.
+            Unbolt was founded by a filmmaker and a local brand strategist who noticed a recurring issue: business owners were spending thousands of dollars monthly on agency fees, only to receive generic stock graphics, poorly resized images, and robotic captions. Traditional agencies treat short-form video like an afterthought, relying on automated AI voiceovers or mobile templates that look identical to every competitor.
           </p>
           <p>
             We realized that local attention is won through authenticity. People don't follow stock photos; they follow stories, personalities, and expertise. So, we built a lean, highly specialized production team. We own our cinema gear, write custom scripts based on patient/diner psychology, shoot on-site to capture native local energy, and edit with handcrafted sound design.

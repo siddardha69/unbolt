@@ -181,7 +181,7 @@ export default function ContactPage() {
                   Schedule a 15-minute introductory video meeting via Calendly to walk through our process.
                 </p>
                 <a
-                  href="https://calendly.com/upbolt-studios/discovery"
+                  href="https://calendly.com/unbolt/discovery"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-xs font-display font-semibold text-text-primary hover:text-accent transition-colors"
@@ -207,12 +207,12 @@ export default function ContactPage() {
                   Check out our latest shoots, behind-the-scenes editing tips, and active client campaigns.
                 </p>
                 <a
-                  href="https://instagram.com/upbolt.studios"
+                  href="https://instagram.com/unbolt.agency"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-xs font-display font-semibold text-text-primary hover:text-accent transition-colors"
                 >
-                  View @upbolt.studios
+                  View @unbolt.agency
                   <Icon name="arrow-right" size={14} />
                 </a>
               </div>

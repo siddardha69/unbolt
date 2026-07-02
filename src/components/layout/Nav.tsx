@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "../ui/Button";
@@ -47,9 +48,26 @@ export const Nav: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <span className="font-display font-bold text-lg tracking-tight text-text-primary">
-              UPBOLT<span className="text-accent font-black">.</span>
-            </span>
+            <div className="relative w-8 h-8 flex-shrink-0">
+              <Image
+                src="/logo-symbol.png"
+                alt="Unbolt Logo"
+                fill
+                className="object-contain"
+                priority
+                sizes="32px"
+              />
+            </div>
+            <div className="relative w-[85px] h-[16px] flex-shrink-0">
+              <Image
+                src="/logo-text.png"
+                alt="Unbolt"
+                fill
+                className="object-contain invert brightness-150"
+                priority
+                sizes="85px"
+              />
+            </div>
           </Link>
 
           {/* Desktop Navigation */}

@@ -14,7 +14,7 @@ import { verticals } from "@/lib/data/verticals";
 import { caseStudies } from "@/lib/data/caseStudies";
 
 export const metadata = {
-  title: "Upbolt Studios | High-Performance Short-Form Video Systems",
+  title: "Unbolt | High-Performance Short-Form Video Systems",
   description: "We plan, shoot, edit, and post high-retention Reels, TikToks, and Shorts for clinics, dining, real estate, and fitness brands in New York."
 };
 

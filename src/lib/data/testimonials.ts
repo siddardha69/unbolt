@@ -11,7 +11,7 @@ export interface Testimonial {
 export const testimonials: Testimonial[] = [
   {
     id: "derma-glow",
-    quote: "Upbolt transformed our Instagram from a digital brochure into our absolute primary source of new patients. The return on investment was clear in the first month.",
+    quote: "Unbolt transformed our Instagram from a digital brochure into our absolute primary source of new patients. The return on investment was clear in the first month.",
     author: "Dr. Evelyn Ross",
     role: "Founder",
     company: "DermaGlow Clinic",

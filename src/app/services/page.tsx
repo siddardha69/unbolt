@@ -7,7 +7,7 @@ import { Icon } from "@/components/shared/Icon";
 import { services } from "@/lib/data/services";
 
 export const metadata = {
-  title: "Our Services | Upbolt Studios",
+  title: "Our Services | Unbolt",
   description: "Explore our industry-specific content production systems for Aesthetic Clinics, Fine Dining, Real Estate, and Boutique Fitness."
 };
 

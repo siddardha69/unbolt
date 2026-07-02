@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Icon } from "../shared/Icon";
 
 export const Footer: React.FC = () => {
@@ -19,8 +20,25 @@ export const Footer: React.FC = () => {
           {/* Brand Info */}
           <div className="md:col-span-2 flex flex-col justify-between">
             <div>
-              <Link href="/" className="font-display font-bold text-lg tracking-tight text-text-primary mb-4 block">
-                UPBOLT<span className="text-accent font-black">.</span>
+              <Link href="/" className="flex items-center gap-2 mb-4">
+                <div className="relative w-7 h-7 flex-shrink-0">
+                  <Image
+                    src="/logo-symbol.png"
+                    alt="Unbolt Logo"
+                    fill
+                    className="object-contain"
+                    sizes="28px"
+                  />
+                </div>
+                <div className="relative w-[75px] h-[14px] flex-shrink-0">
+                  <Image
+                    src="/logo-text.png"
+                    alt="Unbolt"
+                    fill
+                    className="object-contain invert brightness-150"
+                    sizes="75px"
+                  />
+                </div>
               </Link>
               <p className="text-sm text-text-muted leading-relaxed max-w-sm mb-6">
                 We plan, shoot, edit and schedule short-form video (Reels, TikToks, Shorts) to drive inbound booking inquiries for premium local brands.
@@ -105,7 +123,7 @@ export const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="border-t border-text-primary/[0.04] pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-text-muted">
-            &copy; {currentYear} Upbolt Studios. All rights reserved.
+            &copy; {currentYear} Unbolt. All rights reserved.
           </p>
           <div className="flex gap-6">
             <Link href="/privacy" className="text-xs text-text-muted hover:text-text-primary transition-colors">
