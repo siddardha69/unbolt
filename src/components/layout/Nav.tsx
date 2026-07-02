@@ -47,25 +47,15 @@ export const Nav: React.FC = () => {
       >
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 group">
-            <div className="relative w-8 h-8 flex-shrink-0">
+          <Link href="/" className="flex items-center group">
+            <div className="relative w-12 h-14 flex-shrink-0">
               <Image
-                src="/logo-symbol.png"
+                src="/logo-transparent.png"
                 alt="Unbolt Logo"
                 fill
                 className="object-contain"
                 priority
-                sizes="32px"
-              />
-            </div>
-            <div className="relative w-[85px] h-[16px] flex-shrink-0">
-              <Image
-                src="/logo-text.png"
-                alt="Unbolt"
-                fill
-                className="object-contain invert brightness-150"
-                priority
-                sizes="85px"
+                sizes="48px"
               />
             </div>
           </Link>

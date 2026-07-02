@@ -20,23 +20,14 @@ export const Footer: React.FC = () => {
           {/* Brand Info */}
           <div className="md:col-span-2 flex flex-col justify-between">
             <div>
-              <Link href="/" className="flex items-center gap-2 mb-4">
-                <div className="relative w-7 h-7 flex-shrink-0">
+              <Link href="/" className="flex items-center mb-4">
+                <div className="relative w-14 h-16 flex-shrink-0">
                   <Image
-                    src="/logo-symbol.png"
+                    src="/logo-transparent.png"
                     alt="Unbolt Logo"
                     fill
                     className="object-contain"
-                    sizes="28px"
-                  />
-                </div>
-                <div className="relative w-[75px] h-[14px] flex-shrink-0">
-                  <Image
-                    src="/logo-text.png"
-                    alt="Unbolt"
-                    fill
-                    className="object-contain invert brightness-150"
-                    sizes="75px"
+                    sizes="56px"
                   />
                 </div>
               </Link>
@@ -87,27 +78,27 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <a
-                  href="mailto:hello@upboltstudios.com"
+                  href="mailto:hello@unbolt.agency"
                   className="inline-flex items-center gap-2 text-sm text-text-muted hover:text-text-primary transition-colors"
                 >
                   <Icon name="email" size={16} className="text-accent" />
-                  hello@upboltstudios.com
+                  hello@unbolt.agency
                 </a>
               </li>
               <li>
                 <a
-                  href="https://instagram.com/upbolt.studios"
+                  href="https://instagram.com/unbolt.agency"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-sm text-text-muted hover:text-text-primary transition-colors"
                 >
                   <Icon name="instagram" size={16} className="text-accent" />
-                  @upbolt.studios
+                  @unbolt.agency
                 </a>
               </li>
               <li>
                 <a
-                  href="https://calendly.com/upbolt-studios/discovery"
+                  href="https://calendly.com/unbolt/discovery"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-sm text-text-muted hover:text-text-primary transition-colors"
