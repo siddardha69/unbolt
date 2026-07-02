@@ -15,7 +15,7 @@ import { caseStudies } from "@/lib/data/caseStudies";
 
 export const metadata = {
   title: "Unbolt | High-Performance Short-Form Video Systems",
-  description: "We plan, shoot, edit, and post high-retention Reels, TikToks, and Shorts for clinics, dining, real estate, and fitness brands in New York."
+  description: "We plan, shoot, edit, and post high-retention Reels, TikToks, and Shorts for clinics, dining, real estate, and fitness brands in Hyderabad, India."
 };
 
 export default function Home() {

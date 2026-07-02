@@ -42,7 +42,7 @@ export const Footer: React.FC = () => {
               </p>
             </div>
             <div className="text-xs text-text-muted">
-              Serving premium brands in <span className="text-text-primary font-medium">New York, USA</span> & internationally.
+              Serving premium brands in <span className="text-text-primary font-medium">Hyderabad, India</span> & internationally.
             </div>
           </div>
 
@@ -73,44 +73,33 @@ export const Footer: React.FC = () => {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="https://wa.me/15553891029"
+                  href="https://wa.me/918897415626"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-sm text-text-muted hover:text-text-primary transition-colors"
                 >
                   <Icon name="whatsapp" size={16} className="text-accent" />
-                  +1 (555) 389-1029
+                  +91 88974 15626
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:hello@unbolt.agency"
+                  href="mailto:unboltmedia@gmail.com"
                   className="inline-flex items-center gap-2 text-sm text-text-muted hover:text-text-primary transition-colors"
                 >
                   <Icon name="email" size={16} className="text-accent" />
-                  hello@unbolt.agency
+                  unboltmedia@gmail.com
                 </a>
               </li>
               <li>
                 <a
-                  href="https://instagram.com/unbolt.agency"
+                  href="https://www.instagram.com/unbolt_media?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-sm text-text-muted hover:text-text-primary transition-colors"
                 >
                   <Icon name="instagram" size={16} className="text-accent" />
-                  @unbolt.agency
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://calendly.com/unbolt/discovery"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-sm text-text-muted hover:text-text-primary transition-colors"
-                >
-                  <Icon name="calendar" size={16} className="text-accent" />
-                  Book Discovery Call
+                  @unbolt_media
                 </a>
               </li>
             </ul>

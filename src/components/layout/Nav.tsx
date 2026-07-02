@@ -142,13 +142,13 @@ export const Nav: React.FC = () => {
                 Get a Proposal
               </Button>
               <div className="flex items-center justify-center gap-6 text-text-muted mt-4">
-                <a href="https://instagram.com/upbolt.studios" target="_blank" rel="noopener noreferrer" className="hover:text-accent">
+                <a href="https://www.instagram.com/unbolt_media?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" className="hover:text-accent">
                   <Icon name="instagram" size={20} />
                 </a>
-                <a href="mailto:hello@upboltstudios.com" className="hover:text-accent">
+                <a href="mailto:unboltmedia@gmail.com" className="hover:text-accent">
                   <Icon name="email" size={20} />
                 </a>
-                <a href="https://wa.me/15553891029" target="_blank" rel="noopener noreferrer" className="hover:text-accent">
+                <a href="https://wa.me/918897415626" target="_blank" rel="noopener noreferrer" className="hover:text-accent">
                   <Icon name="whatsapp" size={20} />
                 </a>
               </div>

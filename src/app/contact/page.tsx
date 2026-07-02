@@ -155,38 +155,12 @@ export default function ContactPage() {
                   Have a quick question? Message our team directly for a fast response.
                 </p>
                 <a
-                  href="https://wa.me/15553891029"
+                  href="https://wa.me/918897415626"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-xs font-display font-semibold text-text-primary hover:text-accent transition-colors"
                 >
-                  Message +1 (555) 389-1029
-                  <Icon name="arrow-right" size={14} />
-                </a>
-              </div>
-            </div>
-          </Card>
-
-          {/* Calendly Booking */}
-          <Card className="bg-base-light border border-text-primary/[0.04] p-6">
-            <div className="flex items-start gap-4">
-              <div className="p-3 bg-accent/5 border border-accent/10 rounded-[4px] text-accent">
-                <Icon name="calendar" size={24} />
-              </div>
-              <div>
-                <h4 className="font-display font-bold text-text-primary text-sm mb-1">
-                  Book a Discovery Call
-                </h4>
-                <p className="text-xs text-text-muted leading-relaxed mb-4">
-                  Schedule a 15-minute introductory video meeting via Calendly to walk through our process.
-                </p>
-                <a
-                  href="https://calendly.com/unbolt/discovery"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-xs font-display font-semibold text-text-primary hover:text-accent transition-colors"
-                >
-                  Select Time & Date
+                  Message +91 88974 15626
                   <Icon name="arrow-right" size={14} />
                 </a>
               </div>
@@ -207,12 +181,12 @@ export default function ContactPage() {
                   Check out our latest shoots, behind-the-scenes editing tips, and active client campaigns.
                 </p>
                 <a
-                  href="https://instagram.com/unbolt.agency"
+                  href="https://www.instagram.com/unbolt_media?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-xs font-display font-semibold text-text-primary hover:text-accent transition-colors"
                 >
-                  View @unbolt.agency
+                  View @unbolt_media
                   <Icon name="arrow-right" size={14} />
                 </a>
               </div>
