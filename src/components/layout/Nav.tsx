@@ -47,17 +47,23 @@ export const Nav: React.FC = () => {
       >
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center group">
-            <div className="relative w-12 h-14 flex-shrink-0">
+          <Link href="/" className="flex flex-col items-center justify-center text-center group py-1">
+            <div className="relative w-8 h-8 flex-shrink-0 mb-1">
               <Image
-                src="/logo-transparent.png"
+                src="/images/unbolt logo png.png"
                 alt="Unbolt Logo"
                 fill
                 className="object-contain"
                 priority
-                sizes="48px"
+                sizes="32px"
               />
             </div>
+            <span className="font-display font-black text-xs tracking-wider text-text-primary leading-none uppercase">
+              UNBOLT
+            </span>
+            <span className="text-[6px] tracking-widest text-text-muted font-bold leading-none mt-0.5 uppercase">
+              DIGITAL MARKETING AGENCY
+            </span>
           </Link>
 
           {/* Desktop Navigation */}

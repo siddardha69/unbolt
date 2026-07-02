@@ -20,16 +20,22 @@ export const Footer: React.FC = () => {
           {/* Brand Info */}
           <div className="md:col-span-2 flex flex-col justify-between">
             <div>
-              <Link href="/" className="flex items-center mb-4">
-                <div className="relative w-14 h-16 flex-shrink-0">
+              <Link href="/" className="flex flex-col items-start text-left mb-6 group">
+                <div className="relative w-12 h-12 flex-shrink-0 mb-2">
                   <Image
-                    src="/logo-transparent.png"
+                    src="/images/unbolt logo png.png"
                     alt="Unbolt Logo"
                     fill
                     className="object-contain"
-                    sizes="56px"
+                    sizes="48px"
                   />
                 </div>
+                <span className="font-display font-black text-sm tracking-wider text-text-primary leading-none uppercase">
+                  UNBOLT
+                </span>
+                <span className="text-[7px] tracking-widest text-text-muted font-bold leading-none mt-1 uppercase">
+                  DIGITAL MARKETING AGENCY
+                </span>
               </Link>
               <p className="text-sm text-text-muted leading-relaxed max-w-sm mb-6">
                 We plan, shoot, edit and schedule short-form video (Reels, TikToks, Shorts) to drive inbound booking inquiries for premium local brands.
