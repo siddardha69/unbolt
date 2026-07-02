@@ -55,7 +55,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${generalSans.variable} scroll-smooth`}>
+    <html lang="en" className={generalSans.variable}>
       <body className="bg-base text-text-primary min-h-screen flex flex-col justify-between antialiased selection:bg-accent selection:text-text-primary">
         <Nav />
         <main className="flex-grow flex flex-col justify-start">

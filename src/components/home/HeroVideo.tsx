@@ -15,7 +15,7 @@ export const HeroVideo: React.FC = () => {
         muted
         playsInline
         preload="auto"
-        className="absolute inset-0 w-full h-full object-cover z-0 opacity-40 mix-blend-lighten"
+        className="absolute inset-0 w-full h-full object-cover z-0 opacity-20"
       >
         <source src="/videos/hero.mp4" type="video/mp4" />
       </video>
