@@ -14,10 +14,11 @@ export const Nav: React.FC = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 20);
+      const isPastThreshold = window.scrollY > 20;
+      setScrolled((prev) => (prev !== isPastThreshold ? isPastThreshold : prev));
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 

@@ -60,21 +60,3 @@ p, span, li, a, button, select, textarea, input {
   line-height: 1.5;
 }
 
-/* Custom Webkit scrollbar for premium dark-mode styling */
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: #0B0B0C;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #151518;
-  border: 2px solid #0B0B0C;
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #FF4F00;
-}
