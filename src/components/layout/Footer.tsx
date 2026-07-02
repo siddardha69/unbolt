@@ -1,0 +1,122 @@
+import React from "react";
+import Link from "next/link";
+import { Icon } from "../shared/Icon";
+
+export const Footer: React.FC = () => {
+  const currentYear = new Date().getFullYear();
+
+  const links = [
+    { name: "Services", href: "/services" },
+    { name: "Work", href: "/work" },
+    { name: "About", href: "/about" },
+    { name: "Contact", href: "/contact" }
+  ];
+
+  return (
+    <footer className="bg-base border-t border-text-primary/[0.06] pt-16 pb-8 px-6">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+          {/* Brand Info */}
+          <div className="md:col-span-2 flex flex-col justify-between">
+            <div>
+              <Link href="/" className="font-display font-bold text-lg tracking-tight text-text-primary mb-4 block">
+                UPBOLT<span className="text-accent font-black">.</span>
+              </Link>
+              <p className="text-sm text-text-muted leading-relaxed max-w-sm mb-6">
+                We plan, shoot, edit and schedule short-form video (Reels, TikToks, Shorts) to drive inbound booking inquiries for premium local brands.
+              </p>
+            </div>
+            <div className="text-xs text-text-muted">
+              Serving premium brands in <span className="text-text-primary font-medium">New York, USA</span> & internationally.
+            </div>
+          </div>
+
+          {/* Quick Navigation */}
+          <div>
+            <h4 className="font-display text-xs font-semibold tracking-wider uppercase text-text-primary mb-4">
+              Navigation
+            </h4>
+            <ul className="space-y-3">
+              {links.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-sm text-text-muted hover:text-text-primary transition-colors"
+                  >
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Direct Contacts */}
+          <div>
+            <h4 className="font-display text-xs font-semibold tracking-wider uppercase text-text-primary mb-4">
+              Connect Directly
+            </h4>
+            <ul className="space-y-3">
+              <li>
+                <a
+                  href="https://wa.me/15553891029"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-sm text-text-muted hover:text-text-primary transition-colors"
+                >
+                  <Icon name="whatsapp" size={16} className="text-accent" />
+                  +1 (555) 389-1029
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:hello@upboltstudios.com"
+                  className="inline-flex items-center gap-2 text-sm text-text-muted hover:text-text-primary transition-colors"
+                >
+                  <Icon name="email" size={16} className="text-accent" />
+                  hello@upboltstudios.com
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://instagram.com/upbolt.studios"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-sm text-text-muted hover:text-text-primary transition-colors"
+                >
+                  <Icon name="instagram" size={16} className="text-accent" />
+                  @upbolt.studios
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://calendly.com/upbolt-studios/discovery"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-sm text-text-muted hover:text-text-primary transition-colors"
+                >
+                  <Icon name="calendar" size={16} className="text-accent" />
+                  Book Discovery Call
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Bottom Bar */}
+        <div className="border-t border-text-primary/[0.04] pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+          <p className="text-xs text-text-muted">
+            &copy; {currentYear} Upbolt Studios. All rights reserved.
+          </p>
+          <div className="flex gap-6">
+            <Link href="/privacy" className="text-xs text-text-muted hover:text-text-primary transition-colors">
+              Privacy Policy
+            </Link>
+            <Link href="/terms" className="text-xs text-text-muted hover:text-text-primary transition-colors">
+              Terms of Service
+            </Link>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
