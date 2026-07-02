@@ -27,6 +27,7 @@ export const Nav: React.FC = () => {
   }, [pathname]);
 
   const navLinks = [
+    { name: "Home", href: "/" },
     { name: "Services", href: "/services" },
     { name: "Work", href: "/work" },
     { name: "About", href: "/about" },
@@ -36,10 +37,10 @@ export const Nav: React.FC = () => {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4 ${
           scrolled
-            ? "bg-base/70 backdrop-blur-md border-b border-text-primary/[0.06] py-4"
-            : "bg-transparent py-6"
+            ? "bg-base/95 border-b border-text-primary/[0.06]"
+            : "bg-transparent"
         }`}
       >
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
