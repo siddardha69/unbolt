@@ -316,8 +316,8 @@ export const GrowthVisualizer: React.FC = () => {
                   >
                     <defs>
                       <linearGradient id="colorUpbolt" x1="0" y1="0" x2="0" y2="1">
-                        <stop offset="5%" stopColor="#10B981" stopOpacity={0.2}/>
-                        <stop offset="95%" stopColor="#10B981" stopOpacity={0}/>
+                        <stop offset="5%" stopColor="#FF4F00" stopOpacity={0.2}/>
+                        <stop offset="95%" stopColor="#FF4F00" stopOpacity={0}/>
                       </linearGradient>
                       <linearGradient id="colorDiy" x1="0" y1="0" x2="0" y2="1">
                         <stop offset="5%" stopColor="#8E8E93" stopOpacity={0.05}/>
@@ -362,7 +362,7 @@ export const GrowthVisualizer: React.FC = () => {
                       name="Unbolt Managed System"
                       type="monotone"
                       dataKey="Upbolt"
-                      stroke="#10B981"
+                      stroke="#FF4F00"
                       strokeWidth={2.5}
                       fillOpacity={1}
                       fill="url(#colorUpbolt)"
